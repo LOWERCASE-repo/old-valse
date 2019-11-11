@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ba6037098e11d44aaafa6a05fe17e0, type: 3}
+  m_Name: BaseMap
+  m_EditorClassIdentifier: 
+  wallWidth: 3
+  precision: 80
+  trunkLength: 80
+  trunkPivotCount: 7
+  trunkWidth: 3
+  branchLength: 20
+  branchPivotCount: 4
+  branchWidth: 2
+  branchCount: 3
+  rootSize: 5
+  crownSize: 4
+  graftSize: 4
+  leafSize: 5
+  floorTile: {fileID: 11400000, guid: b4a4c6e8465afb34d95a2625a7963c5d, type: 2}
+  wallTiles:
+  - {fileID: 11400000, guid: ca101315cfc7d8e469039b2ec63b283a, type: 2}
+  - {fileID: 11400000, guid: 2453fe507fbd4f8479c2270553151602, type: 2}
+  - {fileID: 11400000, guid: 01f4afaf6fa74af4799eb7e9dc35d73c, type: 2}
+  - {fileID: 11400000, guid: 34a0df3c909fac14c84ed2030606ff89, type: 2}
+  - {fileID: 11400000, guid: f4e4710667572fa40ba1d0719c4d5076, type: 2}
+  shadowTiles:
+  - {fileID: 11400000, guid: f92c50e9225bafa4c961e9c4cae5e5cb, type: 2}
+  - {fileID: 11400000, guid: 0e3adeb090a31824e9f23a7895d948ff, type: 2}
+  - {fileID: 11400000, guid: 154bf92384f65c0419c24f47a32b4d47, type: 2}
+  ambushes:
+  - triggerRange: 4
+    spawnRange: 2
+    spawns: 03000000020000000200000002000000
+  - triggerRange: 5
+    spawnRange: 2
+    spawns: 040000000100000001000000
+  - triggerRange: 5
+    spawnRange: 1
+    spawns: 030000000300000003000000030000000300000003000000
+  - triggerRange: 4
+    spawnRange: 3
+    spawns: 0000000001000000020000000200000004000000
+  finish: {fileID: 5478925532084724999, guid: 64f4fa5bb5cbfd24aacc8b9f8cb7e2d3, type: 3}
+  rewards:
+  - {fileID: 5145804439787182529, guid: f067eda3e073be54d9333ae06b036f6b, type: 3}
